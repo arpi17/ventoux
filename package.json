@@ -13,7 +13,8 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.16"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.3",
@@ -24,6 +25,7 @@
     "unocss": "^0.39.0",
     "unplugin-vue-components": "^0.19.6",
     "vite": "^2.9.9",
+    "vite-plugin-pages": "^0.24.0",
     "vitest": "^0.14.2",
     "vue-tsc": "^0.34.7"
   }

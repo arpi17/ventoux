@@ -3,11 +3,12 @@
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import Components from 'unplugin-vue-components/vite';
+import Pages from 'vite-plugin-pages';
 import Unocss from 'unocss/vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(), Components(), Unocss()],
+  plugins: [vue(), Components(), Pages(), Unocss()],
 
   // Vitest config
   // @see https://vitest.dev/guide/#configuring-vitest
