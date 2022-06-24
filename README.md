@@ -15,4 +15,6 @@ Vue 3 starter template
   - [Attributify mode](https://github.com/unocss/unocss/tree/main/packages/preset-attributify)
   - [CSS Directives](https://github.com/unocss/unocss/tree/main/packages/transformer-directives)
   - [Variant Groups](https://github.com/unocss/unocss/tree/main/packages/transformer-variant-group)
-- [file-system-routing](https://github.com/hannoeru/vite-plugin-pages)
+- [File system routing](https://github.com/hannoeru/vite-plugin-pages)
+- ESLint
+- [Head manager](https://github.com/vueuse/head)
