@@ -11,6 +11,7 @@
     "story:preview": "histoire preview",
     "lint": "eslint .",
     "test": "vitest",
+    "test:ui": "vitest --ui",
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
@@ -22,7 +23,9 @@
     "@typescript-eslint/eslint-plugin": "^5.29.0",
     "@typescript-eslint/parser": "^5.29.0",
     "@vitejs/plugin-vue": "^2.3.3",
+    "@vitest/ui": "^0.16.0",
     "@vue/test-utils": "2.0.0-rc.18",
+    "c8": "^7.11.3",
     "eslint": "^8.18.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-vue": "^9.1.1",
