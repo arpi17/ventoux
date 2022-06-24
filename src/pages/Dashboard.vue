@@ -5,10 +5,10 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
+<script setup lang="ts">
+import { useHead } from '@vueuse/head';
 
-export default defineComponent({
-  name: 'Dashboard',
+useHead({
+  title: 'Dashboard',
 });
 </script>
