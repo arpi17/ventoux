@@ -12,6 +12,8 @@
     "lint": "eslint .",
     "test": "vitest",
     "test:ui": "vitest --ui",
+    "test:e2e:debug": "PWDEBUG=1 pnpm exec playwright test",
+    "test:e2e": "pnpm exec playwright test",
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
@@ -20,6 +22,7 @@
     "vue-router": "^4.0.16"
   },
   "devDependencies": {
+    "@playwright/test": "^1.22.2",
     "@typescript-eslint/eslint-plugin": "^5.29.0",
     "@typescript-eslint/parser": "^5.29.0",
     "@vitejs/plugin-vue": "^2.3.3",

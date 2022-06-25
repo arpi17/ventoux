@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@playwright/test': ^1.22.2
   '@typescript-eslint/eslint-plugin': ^5.29.0
   '@typescript-eslint/parser': ^5.29.0
   '@vitejs/plugin-vue': ^2.3.3
@@ -29,6 +30,7 @@ dependencies:
   vue-router: 4.0.16_vue@3.2.37
 
 devDependencies:
+  '@playwright/test': 1.22.2
   '@typescript-eslint/eslint-plugin': 5.29.0_qqmbkyiaixvppdwswpytuf2hgm
   '@typescript-eslint/parser': 5.29.0_b5e7v2qnwxfo6hmiq56u52mz3e
   '@vitejs/plugin-vue': 2.3.3_ewrwh56wkoslcbbjznqkf4tpoe
@@ -219,6 +221,15 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
+    dev: true
+
+  /@playwright/test/1.22.2:
+    resolution: {integrity: sha512-cCl96BEBGPtptFz7C2FOSN3PrTnJ3rPpENe+gYCMx4GNNDlN4tmo2D89y13feGKTMMAIVrXfSQ/UmaQKLy1XLA==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dependencies:
+      '@types/node': 10.17.60
+      playwright-core: 1.22.2
     dev: true
 
   /@polka/url/1.0.0-next.21:
@@ -2680,6 +2691,12 @@ packages:
       jsonc-parser: 3.0.0
       mlly: 0.5.3
       pathe: 0.3.0
+    dev: true
+
+  /playwright-core/1.22.2:
+    resolution: {integrity: sha512-w/hc/Ld0RM4pmsNeE6aL/fPNWw8BWit2tg+TfqJ3+p59c6s3B6C8mXvXrIPmfQEobkcFDc+4KirNzOQ+uBSP1Q==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /postcss-selector-parser/6.0.10:
