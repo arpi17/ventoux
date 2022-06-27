@@ -19,3 +19,4 @@ Vue 3 starter template
 - [File system routing](https://github.com/hannoeru/vite-plugin-pages)
 - ESLint
 - [Head manager](https://github.com/vueuse/head)
+- [Playwright](https://playwright.dev/)
