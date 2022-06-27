@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@iconify-json/gg': ^1.1.2
   '@playwright/test': ^1.22.2
   '@typescript-eslint/eslint-plugin': ^5.29.0
   '@typescript-eslint/parser': ^5.29.0
@@ -30,6 +31,7 @@ dependencies:
   vue-router: 4.0.16_vue@3.2.37
 
 devDependencies:
+  '@iconify-json/gg': 1.1.2
   '@playwright/test': 1.22.2
   '@typescript-eslint/eslint-plugin': 5.29.0_qqmbkyiaixvppdwswpytuf2hgm
   '@typescript-eslint/parser': 5.29.0_b5e7v2qnwxfo6hmiq56u52mz3e
@@ -154,6 +156,12 @@ packages:
 
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    dev: true
+
+  /@iconify-json/gg/1.1.2:
+    resolution: {integrity: sha512-JHTw0OeMSiGEDcQcNIUtVdkzUCQ/o+TeNsKpr2SGyzJ6etl1LK1aBhXfTrdpgB84iaMp/+FYFpD1+ju4HkoE7Q==}
+    dependencies:
+      '@iconify/types': 1.1.0
     dev: true
 
   /@iconify/types/1.1.0:

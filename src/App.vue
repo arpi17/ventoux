@@ -3,6 +3,7 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <p>Icons are supported<i class="i-gg-umbrella"></i></p>
   <RouterView />
 </template>
 
