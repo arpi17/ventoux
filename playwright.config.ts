@@ -16,7 +16,7 @@ const config: PlaywrightTestConfig = {
   use: {
     baseURL,
   },
-  testDir: './tests',
+  testDir: './e2e',
 };
 
 export default config;
