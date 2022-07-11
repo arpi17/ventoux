@@ -21,7 +21,6 @@ export default defineConfig(({ mode }) => {
 
     // Vitest config
     // @see https://vitest.dev/guide/#configuring-vitest
-    // FIXME: the types are not correct
     test: {
       environment: 'happy-dom',
       exclude: [...configDefaults.exclude, 'e2e/*'],
